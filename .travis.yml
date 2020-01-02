@@ -9,7 +9,7 @@ install:
   - "yarn add"
   - "yarn add -g codecov"
 script:
-  - "yarn cover",
+  - "yarn run cover",
   - codecov
 after_success:
 - bash <(curl -s https://codecov.io/bash)
