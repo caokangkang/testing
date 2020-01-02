@@ -6,4 +6,5 @@ brancher:
     - "dev"
     - "master"
 script:
-  - "yarn run cover"
+  - "yarn run cover",
+  - codecov
