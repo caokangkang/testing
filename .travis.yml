@@ -7,7 +7,7 @@ brancher:
     - "master"
 install:
   - "yarn add"
-  - "yarn install -g codecov"
+  - "yarn add -g codecov"
 script:
   - "yarn run cover",
   - codecov
