@@ -7,4 +7,3 @@ brancher:
     - "master"
 script:
   - "yarn run cover"
-  - "codecov"
