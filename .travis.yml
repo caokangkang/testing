@@ -9,5 +9,5 @@ install:
   - "yarn add"
   - "yarn add -g codecov"
 script:
-  - "yarn run cover",
+  - "yarn cover",
   - codecov
